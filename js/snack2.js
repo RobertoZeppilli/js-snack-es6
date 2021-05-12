@@ -48,3 +48,4 @@ for (var i = 0; i < squadre.length; i++) {
 
 // console.log(squadre);
 console.log(squadreFalliSubiti);
+

@@ -6,7 +6,7 @@ var leggera = document.getElementById("leggera");
 var biciDaCorsa = [
     {
         nome: "Atala",
-        peso: 20
+        peso: 1
     },
     {
         nome: "Bianchi",
@@ -14,11 +14,11 @@ var biciDaCorsa = [
     },
     {
         nome: "Trek",
-        peso: 40
+        peso: 10
     },
     {
         nome: "Paco",
-        peso: 50
+        peso: 3
     },
 ];
 
@@ -28,10 +28,10 @@ for (i = 0; i < biciDaCorsa.length; i++) {
 
     if (biciDaCorsa[i].peso < biciLeggera.peso) {
         biciLeggera = biciDaCorsa[i];
-        var { nome } = biciLeggera;
-        var { peso } = biciLeggera;
     }
 }
+var { nome } = biciLeggera;
+var { peso } = biciLeggera;
 
 leggera.innerHTML = `La bici più leggera è la ${nome} che pesa ${peso} Kg!`;
 
